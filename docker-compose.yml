@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  v2bx: 
+    image: markisq/v2bx:latest
+    volumes:
+      - ./config:/etc/V2bX/ # 映射配置文件夹
+    restart: always
+    network_mode: host
