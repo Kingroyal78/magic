@@ -4,7 +4,7 @@
       {
         "tag": "cf",
         "address": "1.1.1.1",
-        "strategy": "prefer_ipv4"
+        "strategy": "ipv4_only"
       }
     ]
   },
@@ -12,7 +12,7 @@
     {
       "tag": "direct",
       "type": "direct",
-      "domain_strategy": "prefer_ipv4"
+      "domain_strategy": "ipv4_only"
     },
     {
       "type": "block",
