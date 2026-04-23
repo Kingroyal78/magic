@@ -1,7 +1,7 @@
 version: '3'
 services: 
   v2bx: 
-    image: markisq/v2bx:latest
+    image: ghcr.io/wyx2685/v2bx:v0.4.0
     volumes:
       - ./config:/etc/V2bX/ # 映射配置文件夹
     restart: always
